@@ -1,0 +1,159 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0077B5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header .contact-info {
+  margin-top: 20px;
+}
+
+header .contact-info p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Navigation Styles */
+
+nav {
+  background-color: #1a6188;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Styles */
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 40px;
+  margin-bottom: 0;
+  color: #333333;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #0077B5;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Animation Styles */
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-left {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+.slide-in-left {
+  animation-name: slide-in-left;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.slide-in-right {
+  animation-name: slide-in-right;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in-bottom {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.slide-in-bottom {
+  animation-name: slide-in-bottom;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
